@@ -19,7 +19,7 @@ string usernames[5] = {"pogi", "azure", "rence", "goat", "rat"};
     bool login = false;
     int rec = false;
 
-    cout << "=====💸 AZURE ATM MACHINE 💸=====" << endl;
+    cout << "===== AZURE ATM MACHINE =====" << endl;
 
     cout << "Enter Username: ";
     cin >> username;
@@ -102,10 +102,10 @@ string usernames[5] = {"pogi", "azure", "rence", "goat", "rat"};
                 if (wAmount > 0 && wAmount <= balances[user]) {
                     balances[user] -= wAmount;
                     wTotal += wAmount;
-                    cout << ">> Withdraw Successful!💰 <<" << endl;
+                    cout << ">> Withdraw Successful! <<" << endl;
                 }
                 else {
-                    cout << ">> Insufficient Balance! •︵• <<" << endl;
+                    cout << ">> Insufficient Balance! <<" << endl;
                 }
             }
                 
@@ -118,7 +118,7 @@ string usernames[5] = {"pogi", "azure", "rence", "goat", "rat"};
                 if (rec == 1){
                     int rec; 
                     
-                    cout << "\n=====💸 AZURE ATM MACHINE RECEIPT 💸=====" << endl;
+                    cout << "\n===== AZURE ATM MACHINE RECEIPT =====" << endl;
                     cout << "Username: \t" << username << endl;
                     cout << "Deposited: \t" << dTotal << endl;
                     cout << "Withdrawn: \t" << wTotal << endl;
@@ -130,7 +130,7 @@ string usernames[5] = {"pogi", "azure", "rence", "goat", "rat"};
                 }
                 else {
 
-                    cout << ">> ❌Oppps! Invalid Choice! Please enter 0 or 1 only. <<" << endl;
+                    cout << ">> Oops! Invalid Choice! Please enter 0 or 1 only. <<" << endl;
                     continue;
 
                 }
@@ -138,7 +138,7 @@ string usernames[5] = {"pogi", "azure", "rence", "goat", "rat"};
                 break;
             }
             else {
-                cout << "❌Invalid Choice!";
+                cout << "Invalid Choice!";
             }
         }
     }
